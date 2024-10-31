@@ -1,7 +1,5 @@
 # # CURRENCY CONVERTER
 
-This project was bootstrapped with Create React App.
-
 ![Currency Calculator](./public/opengraph.png)
 
 ![Currency Converter](src/images/currency-converter.gif)
