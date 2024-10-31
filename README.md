@@ -4,6 +4,8 @@ This project was bootstrapped with Create React App.
 
 ![Currency Calculator](./public/opengraph.png)
 
+![Currency Converter](src/images/currency-converter.gif)
+
 ## Demo
 
 https://malwinaprutis.github.io/currency-converter-react/
