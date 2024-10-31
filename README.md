@@ -2,7 +2,7 @@
 
 This project was bootstrapped with Create React App.
 
-![Currency Calculator](./images/opengraph.png)
+![Currency Calculator](./public/opengraph.png)
 
 ## Demo
 
