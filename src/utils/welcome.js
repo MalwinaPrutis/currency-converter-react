@@ -1,1 +1,0 @@
-export const welcome = () => console.log("Welcome Dear Developers")
