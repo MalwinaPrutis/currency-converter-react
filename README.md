@@ -1,4 +1,52 @@
-# Getting Started with Create React App
+# # CURRENCY CONVERTER
+
+This project was bootstrapped with Create React App.
+
+![Currency Calculator](./images/opengraph.png)
+
+## Demo
+
+https://malwinaprutis.github.io/currency-converter-react/
+
+## Description
+
+![Animacja](./images/Currency%20Converter%20Animation.gif)
+
+Welcome 😊 This currency converter will allow you to easily and quickly convert 162 current currencies. You can select the language Polish or English by clicking on the flag.
+The calculator is always up to date.
+
+## Developer Details:
+
+Styled-Components: All components are styled using the styled-components library from NPM.
+
+ThemeProvider: The entire app is wrapped in a ThemeProvider with themes for colors, box-shadows, and breakpoints for max-width.
+
+Themes: The theme has elements that differ for dark and light modes. Shared elements are placed in a baseTheme object, which is extended by both lightTheme and darkTheme.
+
+Global Styles: An alternative box model is defined in GlobalStyle.
+
+Hooks Used:
+
+useState
+
+useEffect
+
+Custom Hooks:
+
+useCurrentDate
+
+useThemeSelector
+
+useGetDataFromAPI
+
+useResultUpdate
+
+Time Setting: By combining useEffect, setInterval, and clearInterval, an interval is created to update the date and clock every second if the Clock component exists. If not, the interval is immediately cleared, optimizing efficiency.
+
+API for Currencies and Rates: Data is fetched from an API (free version up to 1,500 requests). Before the data is fetched, a loading screen appears (with a 2-second timeout to ensure it doesn't disappear immediately). If there's any error, a custom user-friendly error screen is displayed.
+
+Language Support: Libraries i18next and react-i18next are used to change the website's language.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,10 +62,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -38,33 +82,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
