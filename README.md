@@ -6,7 +6,7 @@ This project was bootstrapped with Create React App.
 
 ## Demo
 
-https://malwinaprutis.github.io/currency-converter-react/
+https
 
 ## Description
 
