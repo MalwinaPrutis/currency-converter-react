@@ -20,7 +20,8 @@ Styled-Components: All components are styled using the styled-components library
 
 ThemeProvider: The entire app is wrapped in a ThemeProvider with themes for colors, box-shadows, and breakpoints for max-width.
 
-Themes: The theme has elements that differ for dark and light modes. Shared elements are placed in a baseTheme object, which is extended by both lightTheme and darkTheme.
+Themes: The theme has elements that differ for dark and light modes.
+Shared elements are placed in a baseTheme object, which is extended by both lightTheme and darkTheme.
 
 Global Styles: An alternative box model is defined in GlobalStyle.
 
